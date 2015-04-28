@@ -23,7 +23,7 @@ gem 'after_party'
 
 after_bundle do
   git add: "."
-  git commit: %Q{ -m 'Initial commit' }
+  git commit: %Q{ -m 'created new project from rails_template' }
 end
 
   git_url = ask("What is the URL for the Github repo?")
