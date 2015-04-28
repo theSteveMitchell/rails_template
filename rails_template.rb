@@ -1,4 +1,4 @@
-add_source 'http://rubygems.snc1'
+add_source 'http://rubygems.local'
 #remove rubygems.org source from gemfile.
 run "sed -i '' '/rubygems.org/d' Gemfile"
 
