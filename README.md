@@ -14,7 +14,9 @@ prerequisites:
 rails new <app_name> -m https://raw.githubusercontent.com/theSteveMitchell/rails_template/master/rails_template.rb
  => #the script will ask for the uri of your github repo to initialize it
 cd app_name
+bin/setup
 git push
+#start writing code
 ```
 
 #What it does
