@@ -4,7 +4,8 @@ An ideal template for a new rails project
 This is just a template for a new rails project, based on the conventions I used 80+ % of the time.
 
 prerequisites:
-1. create a repo in github (initialized with readme)
+
+1. create a repo in github (initialized with a .gitignore)
 2. be in your project directory, one level up from where your new project lives
 3. be using the ruby version you want to use in your new project.
 
