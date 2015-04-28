@@ -5,18 +5,27 @@ This is just a template for a new rails project, based on the conventions I used
 
 prerequisites:
 
-1. create a repo in github (initialized with a .gitignore)
-2. be in your project directory, one level up from where your new project lives
-3. be using the ruby version you want to use in your new project.
+1. be in your project directory, one level up from where your new project lives
+2. be using the ruby version you want to use in your new project.
 
 # Usage
+
+1. create the project
 ```console
-rails new <app_name> -m https://raw.githubusercontent.com/theSteveMitchell/rails_template/master/rails_template.rb
- => #the script will ask for the uri of your github repo to initialize it
-cd app_name
-bin/setup
-git push
-#start writing code
+$ rails new app-name -m https://raw.githubusercontent.com/theSteveMitchell/rails_template/master/rails_template.rb
+```
+or if you want e.g. a rails-api project:
+```console
+$ rails-api new app-name -m https://raw.githubusercontent.com/theSteveMitchell/rails_template/master/rails_template.rb
+```
+
+2. Enter your github repo URI when asked (it should be initialized with a ruby/rails .gitignore)
+3.
+```console 
+$ cd app_name
+$ bin/setup
+$ git push
+$ #start writing code
 ```
 
 #What it does
