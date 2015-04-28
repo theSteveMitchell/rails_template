@@ -49,7 +49,7 @@ run "rails generate rails_config:install"
 
 #add .ruby-version and .ruby-gemset
 run "echo '#{app_name}' > .ruby-gemset" 
-run "echo '#{RUBY_VERSION}' > .ruby-version"
+run "echo '2.2.1' > .ruby-version"
 
 #get the awesome bin/setup script
 run "curl -sL https://raw.github.com/thestevemitchell/bin_setup/master/bin/setup -o bin/setup"
